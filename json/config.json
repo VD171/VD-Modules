@@ -1,12 +1,12 @@
 {
-  "name": "Template Magisk Modules Repository",
-  "website": null,
-  "support": null,
+  "name": "VD Modules",
+  "website": "https://github.com/VD171",
+  "support": "https://t.me/Priv8_VD",
   "donate": null,
-  "submission": null,
-  "base_url": "https://example.com/",
-  "description": null,
-  "max_num": 2,
+  "submission": "https://github.com/VD171/VD-Modules",
+  "base_url": "https://vd171.github.io/VD-Modules/",
+  "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
+  "max_num": 3,
   "enable_log": true,
   "log_dir": "log"
 }

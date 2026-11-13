@@ -1,0 +1,6 @@
+id: COPG-VD
+enable: true
+verified: true
+update_to: https://raw.githubusercontent.com/VD171/COPG-VD/main/module/update.json
+source: https://github.com/VD171/COPG-VD
+added: 1794586064

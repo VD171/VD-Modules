@@ -58,8 +58,12 @@ Each module keeps its own license, documentation and changelog in its own reposi
 
 Sibling projects by the same author:
 
-- **[VD-Google](https://github.com/VD171/VD-Google)**: reads what Google records on your device about RCS, Wallet and Play Integrity, fully on-device and with no internet.
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: a device method debugger that reads each item through every method that can read it and compares them side by side.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: full app and data backup and restore as root, driven entirely from a WebUI.
+- **[VD-Google](https://github.com/VD171/VD-Google)**: reads what Google records on your device about RCS, Wallet and Play Integrity, fully on-device and with no internet.
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: a device spoofer that turns a fresh fingerprint into a coherent, consistent profile.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: a standalone rooted SSH daemon (Dropbear).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: a dataset of Pixel `build.prop` fingerprints (fork of @T3SL4).
 
 ## Contacts
 

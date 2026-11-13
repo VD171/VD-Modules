@@ -1,0 +1,14 @@
+{
+  "id": "COPG-VD",
+  "timestamp": 1794363697.0,
+  "versions": [
+    {
+      "timestamp": 1794363697.0,
+      "version": "v6.11-vd",
+      "versionCode": 61100,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
+      "changelog": "",
+      "size": 599062
+    }
+  ]
+}

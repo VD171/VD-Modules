@@ -1,1 +1,60 @@
-[]
+{
+  "id": "vd1ubiles",
+  "name": "VD Modules",
+  "website": "https://github.com/VD171",
+  "support": "https://t.me/Priv8_VD",
+  "donate": null,
+  "submission": "https://github.com/VD171/VD-Modules",
+  "cover": "https://vd171.github.io/VD-Modules/assets/cover.webp",
+  "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
+  "metadata": {
+    "version": 1,
+    "timestamp": 1794595765.842243
+  },
+  "modules": [
+    {
+      "id": "COPG-VD",
+      "name": "COPG-VD",
+      "version": "v6.11-vd",
+      "versionCode": 61100,
+      "author": "fork by VD171",
+      "description": "Spoof your device.",
+      "added": 1794586064,
+      "support": "https://t.me/Priv8_VD",
+      "verified": true,
+      "timestamp": 1794363697.0,
+      "size": 599062,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ZYGISK",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true,
+        "zygisk": true,
+        "webroot": true
+      },
+      "stars": 159,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794586064,
+        "source": "https://github.com/VD171/COPG-VD",
+        "antifeatures": null,
+        "build_metadata": "https://vd171.github.io/VD-Modules/modules/COPG-VD/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1794363697.0,
+          "version": "v6.11-vd",
+          "versionCode": 61100,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
+          "changelog": "",
+          "size": 599062
+        }
+      ]
+    }
+  ]
+}

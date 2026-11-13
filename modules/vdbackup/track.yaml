@@ -1,6 +1,0 @@
-id: vdbackup
-enable: true
-verified: true
-update_to: https://raw.githubusercontent.com/VD171/VD-Backup/main/module/update.json
-source: https://github.com/VD171/VD-Backup
-added: 1794586064

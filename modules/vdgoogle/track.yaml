@@ -1,0 +1,6 @@
+id: vdgoogle
+enable: true
+verified: true
+source: https://github.com/VD171/VD-Google
+update_to: https://raw.githubusercontent.com/VD171/VD-Google/main/VDGoogle/webui/update.json
+added: 1794619623

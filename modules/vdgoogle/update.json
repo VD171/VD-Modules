@@ -1,0 +1,14 @@
+{
+  "id": "vdgoogle",
+  "timestamp": 1794483932.0,
+  "versions": [
+    {
+      "timestamp": 1794483932.0,
+      "version": "v1.14",
+      "versionCode": 17,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.md",
+      "size": 2372375
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794595765.842243
+    "timestamp": 1794619690.287293
   },
   "modules": [
     {
@@ -53,6 +53,43 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
           "changelog": "",
           "size": 599062
+        }
+      ]
+    },
+    {
+      "id": "vdgoogle",
+      "name": "VD Google",
+      "version": "v1.14",
+      "versionCode": 17,
+      "author": "VD171",
+      "description": "Read your RCS, Google Wallet and Play Integrity attestation state on-device, via root. No internet. Open the WebUI from your root manager.",
+      "added": 1794619623,
+      "verified": true,
+      "timestamp": 1794483932.0,
+      "size": 2372375,
+      "permissions": [
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG"
+      ],
+      "features": {
+        "webroot": true
+      },
+      "stars": 140,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794619623,
+        "source": "https://github.com/VD171/VD-Google",
+        "antifeatures": null,
+        "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdgoogle/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1794483932.0,
+          "version": "v1.14",
+          "versionCode": 17,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.md",
+          "size": 2372375
         }
       ]
     }

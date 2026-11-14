@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794619690.287293
+    "timestamp": 1794620843.871259
   },
   "modules": [
     {
@@ -53,6 +53,50 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
           "changelog": "",
           "size": 599062
+        }
+      ]
+    },
+    {
+      "id": "vdbackup",
+      "name": "VDBackup",
+      "version": "v1.07",
+      "versionCode": 10700,
+      "author": "VD171",
+      "description": "Full app and data backup & restore.",
+      "added": 1794619530,
+      "verified": true,
+      "timestamp": 1794541726.0,
+      "size": 49628589,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true,
+        "webroot": true,
+        "apks": true
+      },
+      "stars": 78,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794619530,
+        "source": "https://github.com/VD171/VD-Backup",
+        "antifeatures": null,
+        "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdbackup/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1794541726.0,
+          "version": "v1.07",
+          "versionCode": 10700,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.md",
+          "size": 49628589
         }
       ]
     },

@@ -1,0 +1,6 @@
+id: vdbackup
+enable: true
+verified: true
+update_to: https://raw.githubusercontent.com/VD171/VD-Backup/main/module/update-mmrl.json
+source: https://github.com/VD171/VD-Backup
+added: 1794619530

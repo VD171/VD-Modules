@@ -1,0 +1,6 @@
+id: vddropbear
+enable: true
+verified: true
+source: https://github.com/VD171/VD-dropbear
+update_to: https://raw.githubusercontent.com/VD171/VD-dropbear/master/module/update.json
+added: 1794698472

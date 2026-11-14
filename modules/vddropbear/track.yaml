@@ -1,6 +1,8 @@
-id: vddropbear
+added: 1794698472
 enable: true
-verified: true
+id: vddropbear
+last_update: 1794586893.0
 source: https://github.com/VD171/VD-dropbear
 update_to: https://raw.githubusercontent.com/VD171/VD-dropbear/master/module/update.json
-added: 1794698472
+verified: true
+versions: 1

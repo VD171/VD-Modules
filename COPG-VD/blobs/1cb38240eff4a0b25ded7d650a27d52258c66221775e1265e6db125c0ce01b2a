@@ -1,0 +1,33 @@
+{
+  "Instructions": "Use strings on double-quotes only.",
+  "Instructions": "All fields are OPTIONAL. If some field is not provided, it will be skipped.",
+  "Strings extracted from": "https://dl.google.com/developers/android/CANARY/images/factory/tegu_beta-zp11.261016.008-factory-28d56d15.zip",
+  "scope_mode": "playstore",
+  "motor_drm": false,
+  "drm_targets": [],
+  "global_fields": ["SECURITY_PATCH"],
+  "process_overrides": [],
+  "COPG-VD": {
+    "BRAND": "google",
+    "DEVICE": "tegu",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 9a",
+    "FINGERPRINT": "google/tegu_beta/tegu:CANARY/ZP11.261016.008/16754936:user/release-keys",
+    "PRODUCT": "tegu_beta",
+    "BOOTLOADER": "unknown",
+    "BOARD": "tegu",
+    "HARDWARE": "tegu",
+    "DISPLAY": "ZP11.261016.008",
+    "ID": "ZP11.261016.008",
+    "HOST": "e4df75f83a59",
+    "INCREMENTAL": "16754936",
+    "TIMESTAMP": "1793211232",
+    "PREVIEW_SDK": "20261104",
+    "USER": "android-build",
+    "SDK_FINGERPRINT": "ee82a872870173d77e68050e21a2bcbf",
+    "UUID": "FjWvtSORkI0sEwekaPz2s30gqV5vWP_EZHFtBiXzboc",
+    "SECURITY_PATCH": "2026-11-05",
+    "FIRST_API_LEVEL": "35",
+    "DRM_SECURITY_LEVEL": "L1"
+  }
+}

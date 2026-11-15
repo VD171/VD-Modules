@@ -118,9 +118,11 @@ jobs:
 
       - name: Overlay VDLU feeds into site
         run: |
+          # jekyll-build-pages runs in a container and leaves _site owned by root,
+          # so this step (the runner user) needs sudo to write into it.
           shopt -s nullglob
           for d in .vdlu-feed/*/; do
-            cp -r "$d" "./_site/$(basename "$d")"
+            sudo cp -r "$d" "./_site/$(basename "$d")"
           done
 
       - name: Upload artifact

@@ -9,23 +9,24 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794764909.985358
+    "timestamp": 1794775799.727888
   },
   "modules": [
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.11-vd",
-      "versionCode": 61100,
+      "version": "v6.12-vd",
+      "versionCode": 61200,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "added": 1794586064,
       "support": "https://t.me/Priv8_VD",
       "verified": true,
-      "timestamp": 1794363697.0,
-      "size": 599062,
+      "timestamp": 1794773813.0,
+      "size": 13508765,
       "permissions": [
         "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
         "magisk.permission.SEPOLICY",
         "magisk.permission.ZYGISK",
         "kernelsu.permission.WEBUI",
@@ -33,11 +34,12 @@
       ],
       "features": {
         "service": true,
+        "post_fs_data": true,
         "sepolicy": true,
         "zygisk": true,
         "webroot": true
       },
-      "stars": 160,
+      "stars": 162,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794586064,
@@ -53,6 +55,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
           "changelog": "",
           "size": 599062
+        },
+        {
+          "timestamp": 1794773813.0,
+          "version": "v6.12-vd",
+          "versionCode": 61200,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.12-vd_61200.zip",
+          "changelog": "",
+          "size": 13508765
         }
       ]
     },

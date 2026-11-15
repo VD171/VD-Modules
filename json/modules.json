@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794747581.177796
+    "timestamp": 1794764380.595758
   },
   "modules": [
     {
@@ -59,14 +59,14 @@
     {
       "id": "vdbackup",
       "name": "VDBackup",
-      "version": "v1.07",
-      "versionCode": 10700,
+      "version": "v1.08",
+      "versionCode": 10800,
       "author": "VD171",
       "description": "Full app and data backup & restore.",
       "added": 1794619530,
       "verified": true,
-      "timestamp": 1794541726.0,
-      "size": 49628589,
+      "timestamp": 1794763983.0,
+      "size": 51095243,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -97,6 +97,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.md",
           "size": 49628589
+        },
+        {
+          "timestamp": 1794763983.0,
+          "version": "v1.08",
+          "versionCode": 10800,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md",
+          "size": 51095243
         }
       ]
     },
@@ -121,7 +129,7 @@
         "action": true,
         "webroot": true
       },
-      "stars": 14,
+      "stars": 15,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472,
@@ -158,7 +166,7 @@
       "features": {
         "webroot": true
       },
-      "stars": 142,
+      "stars": 143,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794619623,

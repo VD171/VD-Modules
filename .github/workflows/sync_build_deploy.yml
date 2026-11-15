@@ -106,7 +106,23 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          
+
+      # The VDLU incremental-update feeds live on the orphan `vdlu-feed` branch
+      # (content-addressed blobs + signed manifests, reproducible from pack). They
+      # are overlaid AFTER Jekyll so the blobs are served byte-for-byte, unprocessed.
+      - name: Checkout VDLU feeds
+        uses: actions/checkout@v4
+        with:
+          ref: vdlu-feed
+          path: .vdlu-feed
+
+      - name: Overlay VDLU feeds into site
+        run: |
+          shopt -s nullglob
+          for d in .vdlu-feed/*/; do
+            cp -r "$d" "./_site/$(basename "$d")"
+          done
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

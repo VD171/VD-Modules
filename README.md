@@ -51,6 +51,7 @@ It works with KernelSU, APatch and Magisk.
 | **COPG-VD** | Spoofs your device fingerprint into a coherent, consistent profile. | [VD171/COPG-VD](https://github.com/VD171/COPG-VD) |
 | **VD-Backup** | Full app and data backup and restore as root, driven entirely from a WebUI. | [VD171/VD-Backup](https://github.com/VD171/VD-Backup) |
 | **VD-dropbear** | A standalone rooted SSH daemon (Dropbear). | [VD171/VD-dropbear](https://github.com/VD171/VD-dropbear) |
+| **VDGoogle** | Reads your RCS, Google Wallet and Play Integrity state on your device, with no internet. | [VD171/VD-Google](https://github.com/VD171/VD-Google) |
 
 Each module keeps its own license, documentation and changelog in its own repository.
 

@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794837822.506528
+    "timestamp": 1794839117.961825
   },
   "modules": [
     {
@@ -77,14 +77,14 @@
     {
       "id": "vdbackup",
       "name": "VDBackup",
-      "version": "v1.08",
-      "versionCode": 10800,
+      "version": "v1.09",
+      "versionCode": 10900,
       "author": "VD171",
       "description": "Full app and data backup & restore.",
       "added": 1794619530,
       "verified": true,
-      "timestamp": 1794763983.0,
-      "size": 51095243,
+      "timestamp": 1794838945.0,
+      "size": 51159170,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -123,6 +123,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md",
           "size": 51095243
+        },
+        {
+          "timestamp": 1794838945.0,
+          "version": "v1.09",
+          "versionCode": 10900,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.md",
+          "size": 51159170
         }
       ]
     },

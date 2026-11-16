@@ -17,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md",
       "size": 51095243
+    },
+    {
+      "timestamp": 1794838945.0,
+      "version": "v1.09",
+      "versionCode": 10900,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.md",
+      "size": 51159170
     }
   ]
 }

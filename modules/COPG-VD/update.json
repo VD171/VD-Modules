@@ -17,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.12-vd_61200.zip",
       "changelog": "",
       "size": 13508765
+    },
+    {
+      "timestamp": 1794783897.0,
+      "version": "v6.13-vd",
+      "versionCode": 61300,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.13-vd_61300.zip",
+      "changelog": "",
+      "size": 676571
     }
   ]
 }

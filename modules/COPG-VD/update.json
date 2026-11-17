@@ -3,14 +3,6 @@
   "timestamp": 1794363697.0,
   "versions": [
     {
-      "timestamp": 1794783897.0,
-      "version": "v6.13-vd",
-      "versionCode": 61300,
-      "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.13-vd_61300.zip",
-      "changelog": "",
-      "size": 676571
-    },
-    {
       "timestamp": 1794924014.0,
       "version": "v6.14-vd",
       "versionCode": 61400,
@@ -25,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.15-vd_61500.zip",
       "changelog": "",
       "size": 735701
+    },
+    {
+      "timestamp": 1794957852.0,
+      "version": "v6.16-vd",
+      "versionCode": 61600,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.16-vd_61600.zip",
+      "changelog": "",
+      "size": 735837
     }
   ]
 }

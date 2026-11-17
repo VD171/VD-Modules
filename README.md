@@ -6,11 +6,11 @@
 # VD Modules
 
 <p align="center">
-  <img src="assets/cover.webp" alt="VD Modules" width="640">
+  <img src="https://vd171.github.io/VD-Modules/assets/cover.webp" alt="VD Modules" width="640">
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Modules/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0--or--later-1a7f37" alt="License"></a>
   <a href="https://github.com/VD171/VD-Modules/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Modules?color=d29922" alt="Stars"></a>
   <img src="https://img.shields.io/badge/MMRL-compatible-0969da" alt="MMRL compatible">
 </p>
@@ -78,7 +78,7 @@ Sibling projects by the same author:
 
 ## License
 
-**GNU GPL-3.0-or-later**. See [LICENSE](LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0, VD-Backup is AGPL-3.0-or-later.
+**GNU GPL-3.0-or-later**. See [LICENSE](https://github.com/VD171/VD-Modules/blob/master/LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0, VD-Backup is AGPL-3.0-or-later.
 
 ## Trademarks
 

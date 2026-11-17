@@ -9,6 +9,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.02_10002.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.02_10002.md",
       "size": 2587648
+    },
+    {
+      "timestamp": 1794857040.0,
+      "version": "v1.06",
+      "versionCode": 10006,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.md",
+      "size": 2670612
     }
   ]
 }

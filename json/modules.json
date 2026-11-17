@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794878043.214154
+    "timestamp": 1794891361.143481
   },
   "modules": [
     {
@@ -39,7 +39,7 @@
         "zygisk": true,
         "webroot": true
       },
-      "stars": 166,
+      "stars": 167,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794586064,
@@ -71,66 +71,6 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.13-vd_61300.zip",
           "changelog": "",
           "size": 676571
-        }
-      ]
-    },
-    {
-      "id": "vdbackup",
-      "name": "VDBackup",
-      "version": "v1.09",
-      "versionCode": 10900,
-      "author": "VD171",
-      "description": "Full app and data backup & restore.",
-      "added": 1794619530,
-      "verified": true,
-      "timestamp": 1794838945.0,
-      "size": 51159170,
-      "permissions": [
-        "magisk.permission.SERVICE",
-        "magisk.permission.SEPOLICY",
-        "kernelsu.permission.WEBUI",
-        "mmrl.permission.WEBUI_CONFIG",
-        "mmrl.permission.APKS",
-        "mmrl.permission.DEXS"
-      ],
-      "features": {
-        "service": true,
-        "sepolicy": true,
-        "webroot": true,
-        "apks": true
-      },
-      "stars": 85,
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": 1794619530,
-        "source": "https://github.com/VD171/VD-Backup",
-        "antifeatures": null,
-        "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdbackup/track.yaml"
-      },
-      "versions": [
-        {
-          "timestamp": 1794541726.0,
-          "version": "v1.07",
-          "versionCode": 10700,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.md",
-          "size": 49628589
-        },
-        {
-          "timestamp": 1794763983.0,
-          "version": "v1.08",
-          "versionCode": 10800,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md",
-          "size": 51095243
-        },
-        {
-          "timestamp": 1794838945.0,
-          "version": "v1.09",
-          "versionCode": 10900,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.09_10900.md",
-          "size": 51159170
         }
       ]
     },

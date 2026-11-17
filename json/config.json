@@ -5,7 +5,7 @@
   "donate": null,
   "submission": "https://github.com/VD171/VD-Modules",
   "base_url": "https://vd171.github.io/VD-Modules/",
-  "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear).",
+  "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "max_num": 3,
   "enable_log": true,
   "log_dir": "log"

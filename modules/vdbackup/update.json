@@ -1,0 +1,14 @@
+{
+  "id": "vdbackup",
+  "timestamp": 1794891192.0,
+  "versions": [
+    {
+      "timestamp": 1794891192.0,
+      "version": "v1.10",
+      "versionCode": 11000,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.10_11000.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.10_11000.md",
+      "size": 65178630
+    }
+  ]
+}

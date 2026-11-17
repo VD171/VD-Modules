@@ -9,28 +9,29 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1794920563.36266
+    "timestamp": 1794925346.068939
   },
   "modules": [
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.13-vd",
-      "versionCode": 61300,
+      "version": "v6.14-vd",
+      "versionCode": 61400,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "added": 1794586064,
       "support": "https://t.me/Priv8_VD",
       "verified": true,
-      "timestamp": 1794783897.0,
-      "size": 676571,
+      "timestamp": 1794924014.0,
+      "size": 732910,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.SEPOLICY",
         "magisk.permission.ZYGISK",
         "kernelsu.permission.WEBUI",
-        "mmrl.permission.WEBUI_CONFIG"
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
@@ -49,14 +50,6 @@
       },
       "versions": [
         {
-          "timestamp": 1794363697.0,
-          "version": "v6.11-vd",
-          "versionCode": 61100,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.11-vd_61100.zip",
-          "changelog": "",
-          "size": 599062
-        },
-        {
           "timestamp": 1794773813.0,
           "version": "v6.12-vd",
           "versionCode": 61200,
@@ -71,6 +64,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.13-vd_61300.zip",
           "changelog": "",
           "size": 676571
+        },
+        {
+          "timestamp": 1794924014.0,
+          "version": "v6.14-vd",
+          "versionCode": 61400,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.14-vd_61400.zip",
+          "changelog": "",
+          "size": 732910
         }
       ]
     },
@@ -99,7 +100,7 @@
         "webroot": true,
         "apks": true
       },
-      "stars": 87,
+      "stars": 86,
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
@@ -139,7 +140,7 @@
         "action": true,
         "webroot": true
       },
-      "stars": 19,
+      "stars": 18,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472,
@@ -177,14 +178,14 @@
     {
       "id": "vdgoogle",
       "name": "VD Google",
-      "version": "v1.14",
-      "versionCode": 17,
+      "version": "v1.15",
+      "versionCode": 18,
       "author": "VD171",
       "description": "Read your RCS, Google Wallet and Play Integrity attestation state on-device, via root. No internet. Open the WebUI from your root manager.",
       "added": 1794619623,
       "verified": true,
-      "timestamp": 1794483932.0,
-      "size": 2372375,
+      "timestamp": 1794920620.0,
+      "size": 2378100,
       "permissions": [
         "kernelsu.permission.WEBUI",
         "mmrl.permission.WEBUI_CONFIG"
@@ -208,6 +209,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.md",
           "size": 2372375
+        },
+        {
+          "timestamp": 1794920620.0,
+          "version": "v1.15",
+          "versionCode": 18,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.md",
+          "size": 2378100
         }
       ]
     }

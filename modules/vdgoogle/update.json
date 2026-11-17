@@ -9,6 +9,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.14_17.md",
       "size": 2372375
+    },
+    {
+      "timestamp": 1794920620.0,
+      "version": "v1.15",
+      "versionCode": 18,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.md",
+      "size": 2378100
     }
   ]
 }

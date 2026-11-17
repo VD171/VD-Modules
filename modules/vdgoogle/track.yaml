@@ -1,8 +1,8 @@
 added: 1794619623
 enable: true
 id: vdgoogle
-last_update: 1794483932.0
+last_update: 1794920620.0
 source: https://github.com/VD171/VD-Google
 update_to: https://raw.githubusercontent.com/VD171/VD-Google/main/VDGoogle/webui/update.json
 verified: true
-versions: 1
+versions: 2

@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795047054.386447
+    "timestamp": 1795054471.410772
   },
   "modules": [
     {
@@ -78,13 +78,13 @@
     {
       "id": "vdbackup",
       "name": "VDBackup",
-      "version": "v1.13",
-      "versionCode": 11300,
+      "version": "v1.14",
+      "versionCode": 11400,
       "author": "VD171",
       "description": "Full app and data backup & restore.",
       "verified": true,
       "added": 0,
-      "timestamp": 1795045673.0,
+      "timestamp": 1795053596.0,
       "size": 26623384,
       "permissions": [
         "magisk.permission.SERVICE"
@@ -92,7 +92,7 @@
       "features": {
         "service": true
       },
-      "stars": 88,
+      "stars": 89,
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
@@ -101,14 +101,6 @@
         "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdbackup/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1794965565.0,
-          "version": "v1.11",
-          "versionCode": 11100,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.11_11100.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.11_11100.md",
-          "size": 65248699
-        },
         {
           "timestamp": 1795007107.0,
           "version": "v1.12",
@@ -123,6 +115,14 @@
           "versionCode": 11300,
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.13_11300.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.13_11300.md",
+          "size": 26623384
+        },
+        {
+          "timestamp": 1795053596.0,
+          "version": "v1.14",
+          "versionCode": 11400,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.14_11400.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.14_11400.md",
           "size": 26623384
         }
       ]

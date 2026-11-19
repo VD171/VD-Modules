@@ -1,6 +1,6 @@
 enable: true
 id: vdbackup
-last_update: 1795045673.0
+last_update: 1795053596.0
 source: https://github.com/VD171/VD-Backup
 update_to: https://raw.githubusercontent.com/VD171/VD-Backup/main/module/update-mmrl.json
 verified: true

@@ -1,0 +1,14 @@
+{
+  "id": "vdinstaller",
+  "timestamp": 1795209158.0,
+  "versions": [
+    {
+      "timestamp": 1795209158.0,
+      "version": "v1.01",
+      "versionCode": 10100,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.md",
+      "size": 3990163
+    }
+  ]
+}

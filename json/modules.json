@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795184780.704666
+    "timestamp": 1795209730.471691
   },
   "modules": [
     {
@@ -40,7 +40,7 @@
         "zygisk": true,
         "webroot": true
       },
-      "stars": 170,
+      "stars": 169,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794586064,
@@ -92,7 +92,7 @@
       "features": {
         "service": true
       },
-      "stars": 89,
+      "stars": 91,
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
@@ -225,6 +225,45 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.md",
           "size": 2378100
+        }
+      ]
+    },
+    {
+      "id": "vdinstaller",
+      "name": "VDInstaller",
+      "version": "v1.01",
+      "versionCode": 10100,
+      "author": "VD171",
+      "description": "Frictionless root sideload installer: single, batch and split APKs (xapk/apkm/apks), Play Protect verifier toggle, Play install-source spoof. KernelSU/APatch/Magisk WebUI.",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1795209158.0,
+      "size": 3990163,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG"
+      ],
+      "features": {
+        "service": true,
+        "webroot": true
+      },
+      "stars": 8,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/VD171/VD-Installer",
+        "antifeatures": null,
+        "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdinstaller/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1795209158.0,
+          "version": "v1.01",
+          "versionCode": 10100,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.md",
+          "size": 3990163
         }
       ]
     }

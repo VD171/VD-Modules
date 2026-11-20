@@ -1,0 +1,7 @@
+enable: true
+id: vdinstaller
+last_update: 1795209568.0
+source: https://github.com/VD171/VD-Installer
+update_to: https://raw.githubusercontent.com/VD171/VD-Installer/main/module/update.json
+verified: true
+versions: 1

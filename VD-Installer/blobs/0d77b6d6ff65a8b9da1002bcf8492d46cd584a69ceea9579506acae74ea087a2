@@ -1,0 +1,28 @@
+<!--
+  ======================================================================
+   VD INSTALLER  ::  frictionless root sideload installer
+   Install sideload APKs as root (single/batch/split), no friction: KernelSU/APatch/Magisk WebUI.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Installer
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Installer.4809504/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="VDInstaller">
+  <rect x="2" y="2" width="44" height="44" rx="11" fill="#1e2126"/>
+  <path d="M24 9 v17 m0 0 l-7.5 -7.5 M24 26 l7.5 -7.5" fill="none" stroke="#2ecc71" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.5 30 v5.5 a3.5 3.5 0 0 0 3.5 3.5 h16 a3.5 3.5 0 0 0 3.5 -3.5 V30" fill="none" stroke="#e8eaed" stroke-width="3.6" stroke-linecap="round"/>
+</svg>

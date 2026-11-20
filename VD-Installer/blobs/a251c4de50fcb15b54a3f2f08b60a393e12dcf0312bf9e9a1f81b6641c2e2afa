@@ -1,0 +1,17 @@
+{
+  "abi": "x86_64",
+  "generated_utc": "2026-11-20T12:46:13Z",
+  "policy": "All files are fetched at build time from the official upstream listed below, never from a device. Audit: re-fetch the pinned sources, extract, and compare the file sha256 values.",
+  "sources": [
+    {"type": "termux-deb", "package": "jq", "version": "1.8.2", "url": "https://packages.termux.dev/apt/termux-main/pool/main/j/jq/jq_1.8.2_x86_64.deb", "deb_sha256": "b0a35244083a79ff4263b85e9219361d06988d63317eaa52afee92448ae10e1b"},
+    {"type": "termux-deb", "package": "oniguruma", "version": "6.9.10-1", "url": "https://packages.termux.dev/apt/termux-main/pool/main/o/oniguruma/oniguruma_6.9.10-1_x86_64.deb", "deb_sha256": "af74e1e83551d0a24f24f37f5462e3ec3db12a15588788cb1f54b7628ed8239c"},
+    {"type": "abx-tool", "project": "rhythmcache/android-xml-converter", "release": "build-11", "url": "https://github.com/rhythmcache/android-xml-converter/releases/download/build-11/abx-tools-android-x86_64.tar.gz", "archive_sha256": "80685e48c07fdd6662e62596d63b69b6243412a925d36f2418db39459260988f"}
+  ],
+  "files": [
+    {"path": "abx2xml", "bytes": 715552, "sha256": "4a803e86663f8cfc3fb2ca2a71fe588a2d912ddf3d90cf7df9551f75ae72bc20"},
+    {"path": "jq", "bytes": 23608, "sha256": "70ea3e5d022bca13ea3c8d80d4e0899e26c1c2cfb9a8e488949626f72dea3c9a"},
+    {"path": "xml2abx", "bytes": 743936, "sha256": "993f5459e649533300d0a6ff762a6a23e522becbf37b3bb21110f9889b0ee593"},
+    {"path": "lib/libjq.so", "bytes": 333064, "sha256": "29ef30528dab70852a8bc06150bfd7616f8cacfdcd058d71c408ab233650c039"},
+    {"path": "lib/libonig.so", "bytes": 590128, "sha256": "bb85ae64a79bc632f930f927415278c9e425b6380434ce76b345eac7cbce5399"}
+  ]
+}

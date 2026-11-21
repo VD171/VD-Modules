@@ -9,6 +9,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.md",
       "size": 3990163
+    },
+    {
+      "timestamp": 1795271987.0,
+      "version": "v1.02",
+      "versionCode": 10200,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.02_10200.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.02_10200.md",
+      "size": 4003289
     }
   ]
 }

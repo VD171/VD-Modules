@@ -1,0 +1,9 @@
+id=COPG-VD
+name=COPG-VD
+version=v6.17-vd
+versionCode=61700
+author=fork by VD171
+support=https://t.me/Priv8_VD
+description=Spoof your device.
+minMagisk=20.4
+updateJson=https://raw.githubusercontent.com/VD171/COPG-VD/main/module/update.json

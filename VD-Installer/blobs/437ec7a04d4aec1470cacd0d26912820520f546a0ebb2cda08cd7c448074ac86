@@ -1,0 +1,7 @@
+id=vdinstaller
+name=VDInstaller
+version=v1.02
+versionCode=10200
+author=VD171
+description=Frictionless root sideload installer: single, batch and split APKs (xapk/apkm/apks), Play Protect verifier toggle, Play install-source spoof. KernelSU/APatch/Magisk WebUI.
+updateJson=https://raw.githubusercontent.com/VD171/VD-Installer/main/module/update.json

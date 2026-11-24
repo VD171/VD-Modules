@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795547741.201546
+    "timestamp": 1795549845.531141
   },
   "modules": [
     {
@@ -130,14 +130,14 @@
     {
       "id": "vddropbear",
       "name": "VD Dropbear",
-      "version": "v1.11",
-      "versionCode": 10011,
+      "version": "v1.12",
+      "versionCode": 10012,
       "author": "VD171",
       "description": "Standalone, fully configurable Dropbear SSH server for KernelSU/APatch/Magisk. Independent of any other module. Port, binds, host keys, authorized keys, passwords, a hidden version banner and BFU/AFU start behaviour are all set from the WebUI. WARNING: logins default to a ROOT shell.",
       "added": 1794698472,
       "verified": true,
-      "timestamp": 1795362808.0,
-      "size": 2692255,
+      "timestamp": 1795549747.0,
+      "size": 2693269,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -158,14 +158,6 @@
       },
       "versions": [
         {
-          "timestamp": 1795021204.0,
-          "version": "v1.09",
-          "versionCode": 10009,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.09_10009.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.09_10009.md",
-          "size": 2674103
-        },
-        {
           "timestamp": 1795276439.0,
           "version": "v1.10",
           "versionCode": 10010,
@@ -180,6 +172,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.md",
           "size": 2692255
+        },
+        {
+          "timestamp": 1795549747.0,
+          "version": "v1.12",
+          "versionCode": 10012,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.12_10012.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.12_10012.md",
+          "size": 2693269
         }
       ]
     },

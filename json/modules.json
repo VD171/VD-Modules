@@ -9,21 +9,21 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795537948.641693
+    "timestamp": 1795547741.201546
   },
   "modules": [
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.17-vd",
-      "versionCode": 61700,
+      "version": "v6.18-vd",
+      "versionCode": 61800,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "added": 1794586064,
       "support": "https://t.me/Priv8_VD",
       "verified": true,
-      "timestamp": 1795281990.0,
-      "size": 872194,
+      "timestamp": 1795547553.0,
+      "size": 873287,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -50,14 +50,6 @@
       },
       "versions": [
         {
-          "timestamp": 1794943620.0,
-          "version": "v6.15-vd",
-          "versionCode": 61500,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.15-vd_61500.zip",
-          "changelog": "",
-          "size": 735701
-        },
-        {
           "timestamp": 1794957852.0,
           "version": "v6.16-vd",
           "versionCode": 61600,
@@ -72,6 +64,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.17-vd_61700.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.17-vd_61700.md",
           "size": 872194
+        },
+        {
+          "timestamp": 1795547553.0,
+          "version": "v6.18-vd",
+          "versionCode": 61800,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.18-vd_61800.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.18-vd_61800.md",
+          "size": 873287
         }
       ]
     },
@@ -148,7 +148,7 @@
         "action": true,
         "webroot": true
       },
-      "stars": 22,
+      "stars": 23,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472,
@@ -201,7 +201,7 @@
       "features": {
         "webroot": true
       },
-      "stars": 147,
+      "stars": 148,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794619623,

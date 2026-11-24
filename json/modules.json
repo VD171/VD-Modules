@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795556362.116171
+    "timestamp": 1795556893.353105
   },
   "modules": [
     {
@@ -201,7 +201,7 @@
       "features": {
         "webroot": true
       },
-      "stars": 148,
+      "stars": 149,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794619623,
@@ -239,14 +239,14 @@
     {
       "id": "vdinstaller",
       "name": "VDInstaller",
-      "version": "v1.02",
-      "versionCode": 10200,
+      "version": "v1.03",
+      "versionCode": 10300,
       "author": "VD171",
       "description": "Frictionless root sideload installer: single, batch and split APKs (xapk/apkm/apks), Play Protect verifier toggle, Play install-source spoof. KernelSU/APatch/Magisk WebUI.",
       "verified": true,
       "added": 0,
-      "timestamp": 1795271987.0,
-      "size": 4003289,
+      "timestamp": 1795556551.0,
+      "size": 4004304,
       "permissions": [
         "magisk.permission.SERVICE",
         "kernelsu.permission.WEBUI",
@@ -280,6 +280,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.02_10200.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.02_10200.md",
           "size": 4003289
+        },
+        {
+          "timestamp": 1795556551.0,
+          "version": "v1.03",
+          "versionCode": 10300,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.md",
+          "size": 4004304
         }
       ]
     }

@@ -52,18 +52,15 @@ It works with KernelSU, APatch and Magisk.
 | **VD-Backup** | Full app and data backup and restore as root, driven entirely from a WebUI. | [VD171/VD-Backup](https://github.com/VD171/VD-Backup) |
 | **VD-dropbear** | A standalone rooted SSH daemon (Dropbear). | [VD171/VD-dropbear](https://github.com/VD171/VD-dropbear) |
 | **VDGoogle** | Reads your RCS, Google Wallet and Play Integrity state on your device, with no internet. | [VD171/VD-Google](https://github.com/VD171/VD-Google) |
+| **VDInstaller** | Frictionless root sideload installer for single, batch and split APKs, with a Play Protect verifier toggle and install-source spoof, all from a WebUI. | [VD171/VD-Installer](https://github.com/VD171/VD-Installer) |
 
 Each module keeps its own license, documentation and changelog in its own repository.
 
 ## See also
 
-Sibling projects by the same author:
+Sibling projects by the same author that are not distributed through this repository:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: a device method debugger that reads each item through every method that can read it and compares them side by side.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: full app and data backup and restore as root, driven entirely from a WebUI.
-- **[VD-Google](https://github.com/VD171/VD-Google)**: reads what Google records on your device about RCS, Wallet and Play Integrity, fully on-device and with no internet.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: a device spoofer that turns a fresh fingerprint into a coherent, consistent profile.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: a standalone rooted SSH daemon (Dropbear).
 - **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: a dataset of Pixel `build.prop` fingerprints (fork of @T3SL4).
 - **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: use Telegram as an object store from a tiny Go CLI.
 
@@ -80,7 +77,7 @@ Sibling projects by the same author:
 
 ## License
 
-**GNU GPL-3.0-or-later**. See [LICENSE](LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0, VD-Backup is AGPL-3.0-or-later.
+**GNU GPL-3.0-or-later**. See [LICENSE](LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0; VD-Backup, VDGoogle and VDInstaller are AGPL-3.0-or-later.
 
 ## Trademarks
 

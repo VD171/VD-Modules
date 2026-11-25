@@ -1,3 +1,46 @@
+# ======================================================================
+#  VD Modules  ::  MMRL repository for VD171 KernelSU/APatch/Magisk modules
+#  Pipeline: sync module feeds -> build Jekyll site -> overlay VDLU feeds
+#  -> deploy to GitHub Pages. Runs every 6h (cron) and on manual dispatch.
+#
+#  Copyright (C) 2026  VD171
+#  SPDX-License-Identifier: GPL-3.0-or-later
+#
+#  This program is free software: you can redistribute it and/or modify it
+#  under the terms of the GNU General Public License as published by the
+#  Free Software Foundation, version 3 or (at your option) any later version.
+#
+#  Site           : https://vd171.ru
+#  Site           : https://vd.priv8.ru
+#  Source         : https://github.com/VD171/VD-Modules
+#  GitHub         : @VD171 https://github.com/VD171
+#  XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+#  Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+#  Channel        : @Priv8_VD https://t.me/Priv8_VD
+#  Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+#  E-mail         : vd.priv8@pm.me
+# ======================================================================
+#
+#  HOW A RELEASE LANDS (full picture in docs/ARCHITECTURE.md):
+#    1. A module repo bumps its own update_to JSON and publishes a GitHub
+#       release asset (the flashable zip).
+#    2. Every 6h this workflow runs `mmrl-util sync`: for each module it
+#       reads modules/<id>/track.yaml:update_to and APPENDS any version
+#       whose versionCode is HIGHER than the feed head, downloading the
+#       asset into modules/<id>/ and refreshing update.json + modules.json.
+#       Only-higher is why a stale sync source silently freezes a module;
+#       tools/index-check.sh guards against exactly that.
+#    3. `mmrl-util index --push` commits and pushes the refreshed index.
+#    4. Jekyll builds the repo into _site; the orphan `vdlu-feed` branch
+#       (content-addressed VDLU blobs) is overlaid raw on top.
+#    5. GitHub Pages deploys _site. The feed keeps a trailing window of the
+#       3 newest versions per module (contiguous by versionCode).
+#
+#  Action pinning: this workflow deliberately tracks the moving MAJOR tags
+#  of first-party actions/* (actions/checkout@v4, etc.). They are trusted,
+#  and moving majors pick up security patches automatically. Pin to a full
+#  commit SHA only if a supply-chain policy later requires it.
+
 name: sync-build-deploy
 on:
   schedule:
@@ -14,12 +57,10 @@ on:
          - 'Yes'
          - 'No'
 
+# Least privilege: the default token can only READ. Each job below widens
+# the scope to exactly what it needs (sync -> write the index; deploy -> Pages).
 permissions:
-  contents: write
-  issues: write
-  pull-requests: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: "pages"
@@ -31,6 +72,8 @@ env:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # mmrl-util index --push commits the refreshed feed
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,6 +95,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install mmrl-util
 
+      - name: Index consistency guard
+        run: |
+          chmod +x tools/index-check.sh
+          ./tools/index-check.sh
+
       - name: Sync
         if: ${{ env.IS_SYNC == 'true' }}
         env:
@@ -67,7 +115,7 @@ jobs:
             echo "$(cat versions_diff.md)" >> $GITHUB_STEP_SUMMARY
             rm versions_diff.md
           fi
-          
+
       - name: Write latest versions to summary
         if: ${{ env.IS_SYNC != 'true' }}
         run: |
@@ -88,7 +136,7 @@ jobs:
         with:
           name: logs
           path: log/*.log
-  
+
   build:
     runs-on: ubuntu-latest
     needs: sync
@@ -97,10 +145,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -124,11 +172,18 @@ jobs:
           for d in .vdlu-feed/*/; do
             sudo cp -r "$d" "./_site/$(basename "$d")"
           done
+          # .nojekyll tells Pages to serve the built artifact verbatim, so the
+          # content-addressed VDLU blobs (underscore-prefixed names included) are
+          # never reprocessed or dropped by a second Jekyll pass.
+          sudo touch ./_site/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
   deploy:
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -3,14 +3,6 @@
   "timestamp": 1794891192.0,
   "versions": [
     {
-      "timestamp": 1795550775.0,
-      "version": "v1.15",
-      "versionCode": 11500,
-      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.15_11500.zip",
-      "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.15_11500.md",
-      "size": 26353271
-    },
-    {
       "timestamp": 1795612132.0,
       "version": "v1.16",
       "versionCode": 11600,
@@ -25,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.17_11700.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.17_11700.md",
       "size": 65422761
+    },
+    {
+      "timestamp": 1795707883.0,
+      "version": "v1.18",
+      "versionCode": 11800,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.18_11800.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.18_11800.md",
+      "size": 65429049
     }
   ]
 }

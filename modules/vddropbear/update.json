@@ -3,14 +3,6 @@
   "timestamp": 1794586893.0,
   "versions": [
     {
-      "timestamp": 1795362808.0,
-      "version": "v1.11",
-      "versionCode": 10011,
-      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.zip",
-      "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.md",
-      "size": 2692255
-    },
-    {
       "timestamp": 1795549747.0,
       "version": "v1.12",
       "versionCode": 10012,
@@ -25,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.13_10013.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.13_10013.md",
       "size": 2693985
+    },
+    {
+      "timestamp": 1795708919.0,
+      "version": "v1.14",
+      "versionCode": 10014,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.14_10014.zip",
+      "changelog": "",
+      "size": 2707707
     }
   ]
 }

@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google, VDInstaller).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795708303.144628
+    "timestamp": 1795709237.119358
   },
   "modules": [
     {
@@ -138,21 +138,23 @@
     {
       "id": "vddropbear",
       "name": "VD Dropbear",
-      "version": "v1.13",
-      "versionCode": 10013,
+      "version": "v1.14",
+      "versionCode": 10014,
       "author": "VD171",
       "description": "Standalone, fully configurable Dropbear SSH server for KernelSU/APatch/Magisk. Independent of any other module. Port, binds, host keys, authorized keys, passwords, a hidden version banner and BFU/AFU start behaviour are all set from the WebUI. WARNING: logins default to a ROOT shell.",
       "added": 1794698472,
       "verified": true,
-      "timestamp": 1795607633.0,
-      "size": 2693985,
+      "timestamp": 1795708919.0,
+      "size": 2707707,
       "permissions": [
         "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI"
       ],
       "features": {
         "service": true,
+        "sepolicy": true,
         "action": true,
         "webroot": true
       },
@@ -165,14 +167,6 @@
         "build_metadata": "https://vd171.github.io/VD-Modules/modules/vddropbear/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1795362808.0,
-          "version": "v1.11",
-          "versionCode": 10011,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.11_10011.md",
-          "size": 2692255
-        },
         {
           "timestamp": 1795549747.0,
           "version": "v1.12",
@@ -188,6 +182,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.13_10013.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.13_10013.md",
           "size": 2693985
+        },
+        {
+          "timestamp": 1795708919.0,
+          "version": "v1.14",
+          "versionCode": 10014,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.14_10014.zip",
+          "changelog": "",
+          "size": 2707707
         }
       ]
     },

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ======================================================================
+   VD INSTALLER  ::  frictionless root sideload installer
+   Install sideload APKs as root (single/batch/split), no friction: KernelSU/APatch/Magisk WebUI.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Installer
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Installer.4809504/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" width="680" height="180" role="img" aria-label="VD Installer">
+  <g fill="none" stroke="#2ecc71" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- download arrow into a tray (install) -->
+    <line x1="85" y1="34" x2="85" y2="104"/>
+    <polyline points="52,74 85,108 118,74"/>
+    <path d="M40 118 v14 a14 14 0 0 0 14 14 h62 a14 14 0 0 0 14 -14 v-14"/>
+  </g>
+  <text x="165" y="118" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="76" letter-spacing="-1" fill="#2ecc71">VD Installer</text>
+</svg>

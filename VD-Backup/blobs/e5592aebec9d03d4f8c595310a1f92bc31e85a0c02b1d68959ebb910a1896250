@@ -1,0 +1,6 @@
+{
+  "arm64-v8a": {"url":"https://github.com/VD171/VD-Backup/releases/download/v1.18/assets-v1.18-arm64-v8a.tar.zst","sha256":"a1897f4999b51ef87d445be0822d29823dd7ddc6393e896402cb6ca7b8b91646","size":39918334,"tools":["rclone","restic"]},
+  "armeabi-v7a": {"url":"https://github.com/VD171/VD-Backup/releases/download/v1.18/assets-v1.18-armeabi-v7a.tar.zst","sha256":"4c8695a62f1df672a031df08960ade0405a7bac74349775b0a1983d8e287e676","size":40441290,"tools":["rclone","restic"]},
+  "x86": {"url":"https://github.com/VD171/VD-Backup/releases/download/v1.18/assets-v1.18-x86.tar.zst","sha256":"991f6e511eecdb170d56f56fce05a5015ebaddf73c3b6fa2e87bd28b8f8bd0ee","size":51290533,"tools":["rclone","restic"]},
+  "x86_64": {"url":"https://github.com/VD171/VD-Backup/releases/download/v1.18/assets-v1.18-x86_64.tar.zst","sha256":"951a1d4be39ec3dcf2ef9fccbc0107582feaf555b4dbbd2885a3809b7c5233c5","size":49197651,"tools":["rclone","restic"]}
+}

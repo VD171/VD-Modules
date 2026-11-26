@@ -3,14 +3,6 @@
   "timestamp": 1795209158.0,
   "versions": [
     {
-      "timestamp": 1795209158.0,
-      "version": "v1.01",
-      "versionCode": 10100,
-      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.zip",
-      "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.md",
-      "size": 3990163
-    },
-    {
       "timestamp": 1795271987.0,
       "version": "v1.02",
       "versionCode": 10200,
@@ -25,6 +17,14 @@
       "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.zip",
       "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.md",
       "size": 4004304
+    },
+    {
+      "timestamp": 1795712750.0,
+      "version": "v1.04",
+      "versionCode": 10400,
+      "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.04_10400.zip",
+      "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.04_10400.md",
+      "size": 4026709
     }
   ]
 }

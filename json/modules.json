@@ -9,21 +9,21 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google, VDInstaller).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795709237.119358
+    "timestamp": 1795713406.988617
   },
   "modules": [
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.18-vd",
-      "versionCode": 61800,
+      "version": "v6.19-vd",
+      "versionCode": 61900,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "added": 1794586064,
       "support": "https://t.me/Priv8_VD",
       "verified": true,
-      "timestamp": 1795547553.0,
-      "size": 873287,
+      "timestamp": 1795713101.0,
+      "size": 892267,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -50,14 +50,6 @@
       },
       "versions": [
         {
-          "timestamp": 1794957852.0,
-          "version": "v6.16-vd",
-          "versionCode": 61600,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.16-vd_61600.zip",
-          "changelog": "",
-          "size": 735837
-        },
-        {
           "timestamp": 1795281990.0,
           "version": "v6.17-vd",
           "versionCode": 61700,
@@ -72,6 +64,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.18-vd_61800.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.18-vd_61800.md",
           "size": 873287
+        },
+        {
+          "timestamp": 1795713101.0,
+          "version": "v6.19-vd",
+          "versionCode": 61900,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.19-vd_61900.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/COPG-VD/v6.19-vd_61900.md",
+          "size": 892267
         }
       ]
     },
@@ -249,21 +249,23 @@
     {
       "id": "vdinstaller",
       "name": "VDInstaller",
-      "version": "v1.03",
-      "versionCode": 10300,
+      "version": "v1.04",
+      "versionCode": 10400,
       "author": "VD171",
       "description": "Frictionless root sideload installer: single, batch and split APKs (xapk/apkm/apks), Play Protect verifier toggle, Play install-source spoof. KernelSU/APatch/Magisk WebUI.",
       "verified": true,
       "added": 0,
-      "timestamp": 1795556551.0,
-      "size": 4004304,
+      "timestamp": 1795712750.0,
+      "size": 4026709,
       "permissions": [
         "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
         "kernelsu.permission.WEBUI",
         "mmrl.permission.WEBUI_CONFIG"
       ],
       "features": {
         "service": true,
+        "sepolicy": true,
         "webroot": true
       },
       "stars": 23,
@@ -275,14 +277,6 @@
         "build_metadata": "https://vd171.github.io/VD-Modules/modules/vdinstaller/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1795209158.0,
-          "version": "v1.01",
-          "versionCode": 10100,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.01_10100.md",
-          "size": 3990163
-        },
         {
           "timestamp": 1795271987.0,
           "version": "v1.02",
@@ -298,6 +292,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.03_10300.md",
           "size": 4004304
+        },
+        {
+          "timestamp": 1795712750.0,
+          "version": "v1.04",
+          "versionCode": 10400,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.04_10400.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdinstaller/v1.04_10400.md",
+          "size": 4026709
         }
       ]
     }

@@ -1,6 +1,6 @@
 enable: true
 id: vdinstaller
-last_update: 1795556551.0
+last_update: 1795712750.0
 source: https://github.com/VD171/VD-Installer
 update_to: https://raw.githubusercontent.com/VD171/VD-Installer/main/module/update.json
 verified: true

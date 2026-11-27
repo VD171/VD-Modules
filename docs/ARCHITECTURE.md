@@ -6,7 +6,7 @@
 # VD Modules: architecture and pipeline
 
 How this repository turns a module release into an entry your root manager can
-install and keep updated. This is reference material for maintainers; users only
+install and keep updated. This is reference material for maintainers, users only
 need the [README](../README.md).
 
 ## What the repository holds
@@ -74,9 +74,9 @@ Two rules follow:
   **shipping** release, the same channel the module's own `module.prop`
   `updateJson` uses. Do not point it at a stale or secondary channel.
 - `tools/index-check.sh` enforces this. On every pipeline run (and locally) it:
-  validates every JSON; checks that every `modules.json` version has its local
+  validates every JSON, checks that every `modules.json` version has its local
   asset present (a missing asset is what a 404 on the published `zipUrl` would
-  be); checks that `update.json` and `modules.json` agree per module; and, with
+  be), checks that `update.json` and `modules.json` agree per module, and, with
   network access, fails when any sync source advertises a versionCode **below**
   the feed head, or when the feed is running more than the window behind the
   source. Run it offline with `INDEX_CHECK_OFFLINE=1` to skip the remote checks.
@@ -92,16 +92,13 @@ VD-dropbear and VDGoogle do this, so every retained version shows its own notes.
 versions were synced before that changelog was wired into its channel JSON, so
 their feed `changelog` field is empty by history. Newer COPG-VD versions do
 carry a per-version `.md` once the source advertises it. The empty entries age
-out of the trailing window on their own; they are expected, not a defect, and do
+out of the trailing window on their own, they are expected, not a defect, and do
 not need backfilling.
 
 ## Hosting note
 
 The pipeline runs on GitHub Actions and publishes to GitHub Pages, so the
-automated feed advances on the GitHub remote. The canonical development remote is
-the self-hosted Forgejo forge; keeping Forgejo in step with the pipeline's
-automated commits is a maintainer-side mirroring task, not something the
-workflow does on its own.
+automated feed advances on the GitHub remote.
 
 ---
 

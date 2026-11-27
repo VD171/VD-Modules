@@ -1,6 +1,23 @@
 <!--
-  VD MODULES: KernelSU, APatch and Magisk modules by VD171, distributed through MMRL.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: GPL-3.0-or-later
+  ======================================================================
+   VD Modules  ::  the MMRL repository for VD171's root modules
+   KernelSU, APatch and Magisk modules by VD171, distributed through MMRL.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: GPL-3.0-or-later
+
+   Licensed under the GNU GPL-3.0-or-later. See the LICENSE file.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Modules
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Modules
@@ -56,6 +73,17 @@ It works with KernelSU, APatch and Magisk.
 
 Each module keeps its own license, documentation and changelog in its own repository.
 
+## AI agents
+
+This repository is a static MMRL feed: its index and per-module metadata live as JSON under [`json/`](json/) and are served from `https://vd171.github.io/VD-Modules/`. An AI agent or any MMRL-compatible client can read that feed directly to list the modules and resolve the latest release of each, with no scraping. Each module documents its own headless contract for driving it in its own repository.
+
+## Documentation
+
+- **[Architecture](docs/ARCHITECTURE.md)**: how this repository and its MMRL feed are built, validated and published.
+- **[MMRL](https://github.com/MMRLApp/MMRL)**: the client that consumes this repository.
+
+Each module keeps its own full documentation, license and changelog in its own repository, linked under [See also](#see-also).
+
 ## See also
 
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: global device fingerprint / Play Integrity spoofing, whole-device with per-app scope and a WebUI.
@@ -81,7 +109,7 @@ Each module keeps its own license, documentation and changelog in its own reposi
 
 ## License
 
-**GNU GPL-3.0-or-later**. See [LICENSE](LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0; VD-Backup, VDGoogle and VDInstaller are AGPL-3.0-or-later.
+**GNU GPL-3.0-or-later**. See [LICENSE](LICENSE). This covers the repository itself. The modules distributed here each carry their own license: COPG-VD and VD-dropbear are Apache-2.0, VD-Backup, VDGoogle and VDInstaller are AGPL-3.0-or-later.
 
 ## Trademarks
 
@@ -90,3 +118,7 @@ VD Modules is an independent, unofficial project. "KernelSU", "APatch", "Magisk"
 ## Tags
 
 `android` `root` `kernelsu` `apatch` `magisk` `mmrl` `modules` `module-repository` `webui` `copg` `vd171`
+
+---
+
+📣 **Join the channel for updates:** @Priv8_VD https://t.me/Priv8_VD

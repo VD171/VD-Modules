@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google, VDInstaller).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795744528.606365
+    "timestamp": 1795791486.736885
   },
   "modules": [
     {
@@ -78,14 +78,14 @@
     {
       "id": "vdbackup",
       "name": "VDBackup",
-      "version": "v1.18",
-      "versionCode": 11800,
+      "version": "v1.19",
+      "versionCode": 11900,
       "author": "VD171",
       "description": "Full app and data backup & restore.",
       "verified": true,
       "added": 0,
-      "timestamp": 1795707883.0,
-      "size": 65429049,
+      "timestamp": 1795790742.0,
+      "size": 65442142,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -110,14 +110,6 @@
       },
       "versions": [
         {
-          "timestamp": 1795612132.0,
-          "version": "v1.16",
-          "versionCode": 11600,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.16_11600.zip",
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.16_11600.md",
-          "size": 26353271
-        },
-        {
           "timestamp": 1795635355.0,
           "version": "v1.17",
           "versionCode": 11700,
@@ -132,6 +124,14 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.18_11800.zip",
           "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.18_11800.md",
           "size": 65429049
+        },
+        {
+          "timestamp": 1795790742.0,
+          "version": "v1.19",
+          "versionCode": 11900,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.19_11900.zip",
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.19_11900.md",
+          "size": 65442142
         }
       ]
     },
@@ -158,7 +158,7 @@
         "action": true,
         "webroot": true
       },
-      "stars": 24,
+      "stars": 26,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472,

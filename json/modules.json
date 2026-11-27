@@ -9,7 +9,7 @@
   "description": "KernelSU, APatch and Magisk modules by VD171 (COPG-VD, VD-Backup, VD-dropbear, VD-Google, VDInstaller).",
   "metadata": {
     "version": 1,
-    "timestamp": 1795791486.736885
+    "timestamp": 1795794017.554208
   },
   "modules": [
     {
@@ -268,7 +268,7 @@
         "sepolicy": true,
         "webroot": true
       },
-      "stars": 24,
+      "stars": 25,
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
